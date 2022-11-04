@@ -18,5 +18,4 @@ plt.show()
 
 trd, tsd, trl, tsl = train_test_split(data,labels, test_size=0.5)
 
-#testing_errors, assigned_labels, cla = ts.train_test_tree(data, labels,
-                                           #data, labels)
+testing_errors, assigned_labels, cla = ts.train_test_tree(data, labels, data, labels)
