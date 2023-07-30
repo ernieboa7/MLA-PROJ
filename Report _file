@@ -1,0 +1,39 @@
+NAME : ERNEST EBOAGWU (500627328)
+COURSE: ICE 4211 ASSIGMENT 1
+DATE: 10.11.2022
+
+REPORT:
+Question 1a.
+Based on the figure, which data representation would you prefer for solving the 
+classification problem and why?
+
+Comment: Ans 1a. From the plotted figure HOG, HOG data representation is the best for solving
+classification problem because it has more objects and and better distribution.
+
+     
+Question 1.c Function
+Apply the resubstitution protocol to estimate the error rate of LDC for the three data representations. 
+Give a comment on the result
+
+1C Comment: Using Resubstitution to estimate the LDC error rate,
+Show that the HOG data has the minimal amounts of error. Training and testing the 
+HOG data LDC is better the other two data sets. 
+
+
+Comment for 1D: 
+Using Hold-out protocol for LDC also shows that the HOG data is best for
+training and testing. The error rate for HOG data set is better than that for the other two data sets.
+
+Comments for 1D:
+Using oneR classifier to calculate the accuracy of the different data set.
+The RGB data has the best accuracy and the error can be calculated by substracting the accuracy from 1. classification_errorRGB= 0.639
+
+
+
+
+Comment for 2b.
+From the output Z1 = 0.0.328 and Z2 = 0.3001. The closect point to the ideal point is Z2 which has y i.e sensitivity = 0.903 and 1-specificity = 0.284. From the plotted diagram it is the fifth matrics which values are given in the python code:
+
+
+Comment for question 3 b
+ From the result P1= 1.37 and P2 = 2.15: This implies that class1 has the shortest distance to the new object.
